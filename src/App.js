@@ -5,6 +5,7 @@ import {Row,Col } from 'antd'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import NavLeft from './components/NavLeft'
+import Home from './pages/home'
 function App() {
   return (
     <Row className="container">
@@ -14,7 +15,7 @@ function App() {
       <Col span = {20} className="main">
         <Header/>
         <Row className="content">
-          content
+          <Home/>
         </Row>
         <Footer/>
       </Col>
